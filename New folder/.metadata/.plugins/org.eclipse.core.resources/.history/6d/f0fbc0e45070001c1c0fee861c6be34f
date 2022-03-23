@@ -1,0 +1,33 @@
+package Q7;
+
+public class binary {
+
+	public static void main(String[] args)
+	{
+	 int []a= {1,2,3,4,5,6,7};
+	 int num=4;
+	 LoopI(0,a,num);
+	}
+
+	private static void LoopI(int i, int[] a, int num)
+	{
+		 if(i<a.length)
+		 {
+			 int min=0;
+			 int max=a.length-1;
+			 int mid=(min+max)/2;
+			 
+			 if(num==a[mid])
+			 {
+				 System.out.println("Found at index: "+i);
+				 return;
+			 }
+			 if(num>min)
+				 min=mid+1;
+			 else 
+				 max=mid-1;
+			 LoopI(i+1, a, num);
+		 }
+	}
+
+}

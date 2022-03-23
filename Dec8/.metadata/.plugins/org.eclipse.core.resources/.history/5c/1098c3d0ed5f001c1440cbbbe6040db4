@@ -1,0 +1,37 @@
+package Dec18;
+
+public class Loop {
+
+	public static void main(String[] args) 
+	{
+		LoopI(0,0);
+//			for (int j = 0; j < 5; j++)
+//			{
+//				if(j+i>=4)
+//					System.out.print("*");
+//				else
+//					System.out.print(" ");
+//			}
+//			System.out.println();
+		}
+
+	private static void LoopI(int i, int j) 
+	{
+		if(i<5)
+		{
+			if(j+i>=4)
+				System.out.print("*");
+			else
+				System.out.print(" ");
+			if(j<5)
+				j++;
+			else 
+			{
+				j=0;i++;
+				System.out.println();
+			}
+		LoopI(i+1,0);
+	    }
+	}
+
+}

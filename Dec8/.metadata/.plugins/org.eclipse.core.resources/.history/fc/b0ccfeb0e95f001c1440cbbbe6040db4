@@ -1,0 +1,32 @@
+package Dec18;
+
+public class Q5 {
+
+	static int []a = {1,2,3,4};
+	static int []b = {1,2,3,4};
+	public static void main(String[] args) 
+	{
+	  loopI(0);
+	}
+	private static void loopI(int i) 
+	{
+	  if(i<a.length)
+	  {
+		  loopJ(i,0);
+		  loopI(i+1);
+	  }
+	}
+	private static void loopJ(int i, int j) 
+	{
+		if(j<b.length)
+		{
+			if(a[i]==b[j])
+				System.out.println("equility");
+			else
+				System.out.println("Not Equal");
+			loopJ(i, j+1);
+		}
+			
+	}
+
+}

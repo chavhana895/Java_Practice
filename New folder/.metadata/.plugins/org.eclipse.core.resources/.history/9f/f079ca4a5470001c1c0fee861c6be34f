@@ -1,0 +1,26 @@
+package Q4;
+
+public class PropagatedException {
+
+	public static void main(String[] args) 
+	{
+	   System.out.println("I am in main Method");
+	   m1();
+	   System.out.println(" out main method");
+	}
+
+	private static void m1()
+	{
+		System.out.println("In m1 Method");
+		m2();
+		System.out.println("Out m1 Method");
+	}
+
+	private static void m2() 
+	{
+	  System.out.println("In m2 Method");
+	  System.out.println(a/0);
+	  System.out.println("Out m2 Method");
+	}
+
+}

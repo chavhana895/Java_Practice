@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ArrayList.MyArrayList"/>
+    <fullyQualifiedTypeName name="LinkedList.MyLinkedList"/>
+    <fullyQualifiedTypeName name="doubleLinkedList.Node"/>
+    <fullyQualifiedTypeName name="doubleLinkedList.MyDoublyLinkedList"/>
+    <fullyQualifiedTypeName name="LinkedList.Node"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,52 @@
+package Q1;
+
+public class MyDL <p>
+{
+
+	Node<p> head;
+	Node<p> tail;
+		
+void add(p data)
+{
+   if(head==null)
+   {
+	   head=new Node<p>(data);
+	   tail=head;
+   }
+   Node<p> temp= new Node<p>(data);
+   while(true)
+   {
+	   if(temp.next!=null)
+	   {
+		   temp=temp.next.next;
+	   }
+	   temp.next.next=new Node<p>(data);
+   }
+}
+
+
+public String toString()
+{
+	String s="[";
+	Node <p> temp=head;
+	while(temp!=null)
+	{
+		s=s+temp.data;
+		if(temp.next!=null)
+		{
+			s=s+", ";
+		}
+		temp=temp.next;
+		
+	}
+	s=s+"]";
+	return s;
+	
+}
+
+
+void remove(int i)
+{
+	Node<p> temp= new
+}
+}

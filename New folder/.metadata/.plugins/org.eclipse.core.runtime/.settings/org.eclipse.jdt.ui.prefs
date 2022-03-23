@@ -1,0 +1,9 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Q1.Node"><rhs name\="Q1.Node"/></lhs><lhs name\="java.lang.Thread"><rhs name\="Q3.Thread1"/><rhs name\="Q3.Thread2"/></lhs><lhs name\="java.lang.Runnable"><rhs name\="Q3.Thread1"/><rhs name\="Q3.Thread2"/></lhs><lhs name\="Q3.Thread1"><rhs name\="Q3.Thread1"/></lhs><lhs name\="Q3.Thread2"><rhs name\="Q3.Thread2"/></lhs><lhs name\="Q2.Node"><rhs name\="Q2.Node"/></lhs><lhs name\="java.util.NavigableMap"><rhs name\="java.util.TreeMap"/></lhs><lhs name\="java.util.SortedMap"><rhs name\="java.util.TreeMap"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.TreeMap"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.TreeMap"/></lhs><lhs name\="java.util.AbstractMap"><rhs name\="java.util.TreeMap"/></lhs><lhs name\="java.util.TreeMap"><rhs name\="java.util.TreeMap"/></lhs><lhs name\="Q2.MyTreeMap"><rhs name\="Q2.MyTreeMap"/></lhs><lhs name\="Q1.MyDL"><rhs name\="Q1.MyDL"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

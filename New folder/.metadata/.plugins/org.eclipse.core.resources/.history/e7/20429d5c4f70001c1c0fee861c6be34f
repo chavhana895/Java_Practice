@@ -1,0 +1,11 @@
+package Q2;
+
+public class MyTreeMap <k,v> 
+{
+Node <k,v> root;
+
+void add(k key, v value)
+{
+	if(root)
+}
+}

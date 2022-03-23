@@ -1,0 +1,47 @@
+package LinkedList;
+
+public class MyLinkedList <p>
+{
+Node <p> root;
+
+int index=0;
+void add(p data)
+{
+	Node<p> obj = new Node<p>(data);
+	if(root==null)
+	{
+		root=obj;
+	}
+	else
+	{
+		Node<p> temp=root;
+		while(temp.next!=null)
+		{
+			temp=temp.next;
+		}
+		temp.next=obj;
+	}
+}
+
+void print()
+{
+	Node<p> temp=root;
+	while(temp!=null)
+	{
+		System.out.println(temp.data);
+		index++;
+		temp=temp.next;
+	}
+}
+
+void remove(int i)
+{
+	Node<p> temp=root;
+	int b=0;
+	for (int j = i; j < index; j++) 
+	{
+	   b=j+1;
+	   System.out.println(b);
+	}
+}
+}
