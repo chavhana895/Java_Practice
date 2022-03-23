@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Q1.MyLinkedList"/>
+    <fullyQualifiedTypeName name="Q4.Addition"/>
+    <fullyQualifiedTypeName name="Q4.Thread1"/>
+    <fullyQualifiedTypeName name="Q4.Thread2"/>
+    <fullyQualifiedTypeName name="Q3.MyTreeMap"/>
+    <fullyQualifiedTypeName name="Q3.Node"/>
+    <fullyQualifiedTypeName name="Q2.Node"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+</qualifiedTypeNameHistroy>

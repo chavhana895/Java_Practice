@@ -1,0 +1,5 @@
+package multilevel;
+
+public class calc3 extends calc2 {
+
+}

@@ -1,0 +1,5 @@
+package static_Methodhidig;
+
+public class TwoWheeler extends Bike {
+
+}

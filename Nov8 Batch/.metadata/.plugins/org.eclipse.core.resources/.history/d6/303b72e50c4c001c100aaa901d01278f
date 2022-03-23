@@ -1,0 +1,15 @@
+package Hierarchical;
+
+public class Myclass {
+
+	public static void main(String[] args) 
+	{
+		calc2 c=new calc2();
+		c.Add(1, 4);
+		c.Sub(7, 3);
+		c.Mult(3, 4);
+		
+
+	}
+
+}

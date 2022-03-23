@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+F:\Avi Files\eclipse-workspace\Jan1Exam\.metadata\.plugins\org.eclipse.jdt.core
+2181825331.index
+1210658807.index

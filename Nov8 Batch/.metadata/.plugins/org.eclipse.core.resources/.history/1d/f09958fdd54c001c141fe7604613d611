@@ -1,0 +1,14 @@
+package containment;
+
+public class Myclass {
+
+	public static void main(String[] args) 
+	{
+	 Bike bike = new Bike();
+	 Laptop laptop=new Laptop();
+	 Student student = new Student();
+	 
+	 System.out.println(student.name);
+	}
+
+}

@@ -1,0 +1,11 @@
+package Q4;
+
+public class Addition 
+{
+ static int i=0;
+ 
+ static void add()
+ {
+	 i++;
+ }
+}

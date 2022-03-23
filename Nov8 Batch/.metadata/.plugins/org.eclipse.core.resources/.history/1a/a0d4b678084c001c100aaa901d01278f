@@ -1,0 +1,18 @@
+package Nov23;
+
+public class calc2 extends calc
+{
+	public void calc2() 
+	{
+		System.out.println("Hi from calc2");
+	}
+	public void mult(int a, int b)
+	{
+		System.out.println("Mult is: "+(a*b));
+	}
+	
+	public void div(int a, int b)
+	{
+		System.out.println("Div is: "+(a/b));
+	}
+}
